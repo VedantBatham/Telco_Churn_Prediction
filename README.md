@@ -60,23 +60,35 @@ This repository contains a Machine Learning project for predicting customer chur
   {'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 5,
    'n_estimators': 200, 'subsample': 0.8}
 
-# Usage
+## Usage
+
 - Clone the repository:
-  ```bash
-git clone <your-repo-url>
-cd telco-churn-prediction
+
+    ```bash
+    git clone <your-repo-url>
+    cd telco-churn-prediction
+    ```
 
 - Install dependencies:
-pip install -r requirements.txt
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 - Run the notebook:
-jupyter notebook Telco_Churn_Prediction.ipynb
+
+    ```bash
+    jupyter notebook Telco_Churn_Prediction.ipynb
+    ```
 
 - Load the trained model for prediction:
-import pickle
 
-with open('xgb_telco_churn_model.pkl', 'rb') as f:
-    model = pickle.load(f)
+    ```python
+    import pickle
 
-y_pred = model.predict(X_new)
+    with open('xgb_telco_churn_model.pkl', 'rb') as f:
+        model = pickle.load(f)
+
+    y_pred = model.predict(X_new)
+    ```
 
