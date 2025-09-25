@@ -60,7 +60,7 @@ This repository contains a Machine Learning project for predicting customer chur
   {'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 5,
    'n_estimators': 200, 'subsample': 0.8}
 
-#Usage
+# Usage
 - Clone the repository:
 git clone <your-repo-url>
 cd telco-churn-prediction
