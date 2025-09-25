@@ -62,6 +62,7 @@ This repository contains a Machine Learning project for predicting customer chur
 
 # Usage
 - Clone the repository:
+  ```bash
 git clone <your-repo-url>
 cd telco-churn-prediction
 
